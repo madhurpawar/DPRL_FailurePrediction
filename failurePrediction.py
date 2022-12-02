@@ -51,7 +51,7 @@ poisson_eqn = np.linalg.solve(poisson_eqn, reward1) #Solving 91 equations to get
 print("Long run avg cost after solving poisson equation:",poisson_eqn[-1])
 
 # PART D 1
-
+print("*************PART D*****************")
 probability_matrix1 = probability_matrix
 rewards1 = np.zeros((total_states))
 for i in range(0,total_states):
